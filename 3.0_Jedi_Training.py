@@ -1,10 +1,17 @@
-#Sign your name:________________
+#Sign your name: Nellie
 
 
 # 1.) Write a program that asks someone for their name and then prints their name to the screen?
 
+print('Hello What is your Name')
+
+name = input("What's your name?")
+
+print(" Hello," + name + "!")
+
 
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
+
 
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
