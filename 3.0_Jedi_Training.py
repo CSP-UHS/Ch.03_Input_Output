@@ -3,11 +3,11 @@
 
 # 1.) Write a program that asks someone for their name and then prints their name to the screen?
 
-# print('Hello What is your Name')
-#
-# name = input("What's your name?")
-#
-# print(" Hello," + name + "!")
+print('Hello What is your Name')
+
+name = input("What's your name?")
+
+print(" Hello," + name + "!")
 
 
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
