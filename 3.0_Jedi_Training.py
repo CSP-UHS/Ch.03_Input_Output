@@ -3,11 +3,11 @@
 
 # 1.) Write a program that asks someone for their name and then prints their name to the screen?
 
-print('Hello What is your Name')
-
-name = input("What's your name?")
-
-print(" Hello," + name + "!")
+# print('Hello What is your Name')
+#
+# name = input("What's your name?")
+#
+# print(" Hello," + name + "!")
 
 
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
@@ -16,8 +16,15 @@ print(" Hello," + name + "!")
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 
+print("Hello what is a radius of a circle?")
+
+radius = int(input()) #this will change the string into a int
+
+print (2 * 3.14 * radius)
+
 
 # 4. Ask a user for an integer and then print the square root.
+
 
 
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
