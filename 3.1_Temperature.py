@@ -12,9 +12,10 @@ In: 25  Out: -3.9
 In: -40  Out: ???
 
 '''
-
-print("give me a temperature in Fahrenheit")
-
-
-
-# (32°F − 32) × 5/9 = 0°C
+#
+# f = float(input("Please put a temperature in Fahrenheit"))
+#
+#
+# output = ((f - 32) * 5/9)
+#
+# print(output)

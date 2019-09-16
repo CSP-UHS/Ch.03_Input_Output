@@ -44,8 +44,8 @@
 #
 # mass = int(input("give me a mass"))
 # acceleration = int(input("give me a acceleration"))
-# F = (mass*acceleration)
+# f = (mass*acceleration)
 #
-# print("Because F =", F)
+# print("Because F =", f)
 # print("Get it!")
 
