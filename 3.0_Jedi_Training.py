@@ -1,4 +1,4 @@
-#Sign your name:________________
+#Sign your name: Julie Pham
 
 
 # 1.) Write a program that asks someone for their name and then prints their name to the screen?
