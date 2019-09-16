@@ -13,13 +13,13 @@ Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 
-SG = float(input("Hey whats your current Semester Grade?"))
-
-FG = float(input("Hey whats your final exam grade?"))
-
-EW = float(input("How much does the exam weigh?"))
-EW/= 100
-
-Overall = (SG * (1 - EW) + FG * (EW))
-
-print("Your grade is"Overall)
+# SG = float(input("Hey whats your current Semester Grade?"))
+#
+# FG = float(input("Hey whats your final exam grade?"))
+#
+# EW = float(input("How much does the exam weigh?"))
+# EW/= 100
+#
+# Overall = (SG * (1 - EW) + FG * (EW))
+#
+# print("Your grade is"Overall)
