@@ -14,5 +14,6 @@ In: -40  Out: ???
 '''
 
 
-
-
+F=int(input("What is the Fahrenheit?"))
+Celsius=(F-32)*5/9
+print(Celsius)
