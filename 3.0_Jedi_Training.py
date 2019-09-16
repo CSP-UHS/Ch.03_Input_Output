@@ -12,11 +12,13 @@
 
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
 
-# print("Hey tell me a base and a High!")
-# base = input()
-# height = input()
-# print(base, height)
+print("Hey give me a base and a hight")
 
+base = int(input("Enter base"))
+
+height = int(input("Enter height"))
+
+print(base * height * 0.5)
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 
     # print("Hello what is a radius of a circle?")

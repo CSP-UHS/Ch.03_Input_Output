@@ -1,9 +1,9 @@
 #tells you your age
-print("Hey let me guess what is your age is.")
-
-BornY = int(input())
-
-print(2019 - BornY)
+# print("Hey let me guess what is your age is.")
+#
+# BornY = int(input())
+#
+# print(2019 - BornY)
 
 # print("Hey wats your grade \" Hello") HOW TO PRINT A DOUBLE QUOTE
 # \n = new line
