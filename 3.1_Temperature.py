@@ -13,6 +13,8 @@ In: -40  Out: ???
 
 '''
 
+print("give me a temperature in Fahrenheit")
 
 
 
+# (32°F − 32) × 5/9 = 0°C
