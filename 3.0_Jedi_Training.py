@@ -37,8 +37,15 @@
 #
 # print(integer**.5)
 
-# 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma.
-#    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
+#               5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma.
+#       Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
 
+print("May the times acceleration be with you!")
 
+mass = int(input("give me a mass"))
+acceleration = int(input("give me a acceleration"))
+F = (mass*acceleration)
+
+print("Because F =", F)
+print("Get it!")
 
