@@ -17,7 +17,9 @@ SG = float(input("Hey whats your current Semester Grade?"))
 
 FG = float(input("Hey whats your final exam grade?"))
 
-EW/= float(input()100)
+EW = float(input("How much does the exam weigh?"))
+EW/= 100
 
-Overall = float(SG * 1 - EW * FG * EW)
+Overall = (SG * (1 - EW) + FG * (EW))
 
+print("Your grade is"Overall)
