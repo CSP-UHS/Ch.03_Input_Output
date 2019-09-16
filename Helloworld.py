@@ -14,3 +14,8 @@ print("I want to print a double quote \nBut I won't right now" )
 first_name= input("What is your first name?")
 last_name= input("What is your last name?")
 print("Nice to meet you",first_name,last_name)
+
+lenght=int(input("What is the length of the the rectangle?"))
+width=int(input("What is the width of the rectangle?"))
+area=lenght*width
+print("The area of the triangle is", area)
