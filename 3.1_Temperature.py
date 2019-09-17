@@ -13,7 +13,7 @@ In: -40  Out:-40
 
 '''
 
-print("give me temperature in Fahrenheit and I will tell you in celsius")
+print("give me temperature in Fahrenheit and I will tell you in celsius")   #something
 fah=int(input("What is the temperature in Fahrenheit?"))
 cel= (fah-32)*5/9
 print("that's ",cel , "Celsius")
