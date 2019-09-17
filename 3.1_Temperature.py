@@ -9,10 +9,12 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ???
+In: -40  Out:-40
 
 '''
 
-
-
+print("give me temperature in Fahrenheit and I will tell you in celsius")
+fah=int(input("What is the temperature in Fahrenheit?"))
+cel= (fah-32)*5/9
+print("that's ",cel , "Celsius")
 
