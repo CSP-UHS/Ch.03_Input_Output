@@ -25,6 +25,7 @@ print(squared)
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
 mass=int(input("What is the mass?"))
 acceleration=int(input("What is the acceleration?"))
-print("The force.")
+force=mass*acceleration
+print("The force is",force)
 print("Get it?")
 
