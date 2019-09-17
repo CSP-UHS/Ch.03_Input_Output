@@ -2,10 +2,13 @@
 
 
 # 1.) Write a program that asks someone for their name and then prints their name to the screen?
+firstname=input("what is your first name?")
 
 
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
-
+b = input("eneter base value")
+h = input("eneter height value")
+(h*b)
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 
