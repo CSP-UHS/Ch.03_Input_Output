@@ -13,7 +13,7 @@ In: -40  Out: ???
 
 '''
 
-(x−32) * 5/9 =0
-x =input(prompt)
-
+f = int(input("what is the temperature in farenheit"))
+celsius = (f-32)*(5/9)
+print("the temperature in celsius is",celsius)
 
