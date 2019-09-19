@@ -12,3 +12,10 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
+
+sgrade = int(input("What is your current grade? "))
+test = float(input("What do you hope to get on the final? "))
+worth = float(input("How much is the exam worth "))
+worth/=100
+grade = sgrade*(1-worth)+test*(worth)
+print("Your grade is:", grade)
