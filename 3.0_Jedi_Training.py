@@ -8,7 +8,7 @@
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
 #Ht=int(input("What is the height of the triangle?"))
 #Bs=int(input("What is the base of the triangle?"))
-#Area=print("The area of your triangle is", (Ht*Bs)/2)
+#print("The area of your triangle is", (Ht*Bs)/2)
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 #r=int(input("What is the radius of the circle?"))
