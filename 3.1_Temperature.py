@@ -12,6 +12,9 @@ In: 25  Out: -3.9
 In: -40  Out: ???
 
 '''
+TempInF=int(input("what Is the degree in Far"))
+(32°F − 32) × 5/9 = 0°C
+
 
 
 
