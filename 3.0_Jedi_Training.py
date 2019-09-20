@@ -13,9 +13,10 @@ area=.5*(base*height)
 print(area)
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
+import math
 print("Lets find the circumference of a circle")
 radius=int(input("What's the radius of the circle?"))
-circumference=(radius*2)*
+circumference=radius*2*math.pi
 print(circumference)
 # 4. Ask a user for an integer and then print the square root.
 print("Lets Find the square root of a number")
