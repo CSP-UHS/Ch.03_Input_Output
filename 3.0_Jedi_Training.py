@@ -6,7 +6,7 @@ name=input("What is your name?")
 print(("Hello",name))
 
 # 2. Write a a program where a user enters a base and height and you print the area of a triangle.
-print("Finding the area oaf a triangle")
+print("Finding the area of a triangle")
 base=int(input("What is the base of the triangle?"))
 height=int(input("What is the height of the triangle?"))
 area=.5*(base*height)
