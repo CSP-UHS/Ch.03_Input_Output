@@ -12,9 +12,9 @@ In: 25  Out: -3.9
 In: -40  Out: ???
 
 '''
-TempInF=int(input("what Is the degree in Far"))
-Celcius=(TempInF−32)×5/9
-print("your degree in celcius",Celcius)
+TempInF=int(input("what Is the degree in Farenheit"))
+Celcius=(TempInF-32)*5/9
+print("That degree in farenheit converted is",Celcius)
 
 
 
