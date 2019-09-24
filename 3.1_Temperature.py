@@ -13,6 +13,11 @@ In: -40  Out: ???
 
 '''
 
+celsius = float(input("Type a temperature in celsius: "))
+
+fahrenheit = 1.8*celsius+32
+
+print(celsius, "Degrees celsius is", fahrenheit, "degrees fahrenheit ")
 
 
 
