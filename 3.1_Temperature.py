@@ -9,15 +9,20 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ???
+In: -40  Out: -40
 
 '''
 
-celsius = float(input("Type a temperature in celsius: "))
+print()
+print("Welcome to Peggy's Celsius calculator!")
+fahrenheit = float(input("Type a temperature in Fahrenheit: "))
 
-fahrenheit = 1.8*celsius+32
+celsius = (fahrenheit-32) * 5/9
 
-print(celsius, "Degrees celsius is", fahrenheit, "degrees fahrenheit ")
+print()
+print(fahrenheit, "degrees Fahrenheit is", celsius, "degrees Celsius ")
+
+
 
 
 

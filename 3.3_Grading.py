@@ -17,3 +17,13 @@ final exam=
 exam worth=
 sg(1-ew)+tg(ew/=100) ew=ew/100
 '''
+
+print()
+sg = float(input("What is your current grade?"))
+fg = float(input("What is your final exam grade?"))
+ew = float(input("What is your exam worth?"))
+
+grade = sg*(1-ew) + fg*(ew/100)
+
+print(grade)
+
