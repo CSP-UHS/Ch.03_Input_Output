@@ -19,11 +19,15 @@ sg(1-ew)+tg(ew/=100) ew=ew/100
 '''
 
 print()
-sg = float(input("What is your current grade?"))
-fg = float(input("What is your final exam grade?"))
+print("Welcome to Peggy's Grade Calculator")
+print()
+sg = float(input("What is your semester grade?"))
+fe = float(input("What is your final exam grade?"))
 ew = float(input("What is your exam worth?"))
+ew = ew/100
+grade = sg*(1-ew) + fe*(ew)
+print()
+print("Your final grade is:", grade)
 
-grade = sg*(1-ew) + fg*(ew/100)
 
-print(grade)
 
