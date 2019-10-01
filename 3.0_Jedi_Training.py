@@ -48,3 +48,7 @@ m = float(input("What is the mass?"))
 a = float(input("what is the acceleration?"))
 f = m*a
 print()
+print("The force is", f)
+print("May the mass times acceleration be with you!")
+print("Get it?")
+print()
