@@ -1,12 +1,12 @@
-# Sign your name:________________
+# Sign your name:________Nathan Topolinski________
 # In all the short programs below, do a good job communicating with your end user!
 
 
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
-
-
+name=input ("Please enter your name: ")
+print("WELCOME",name,", to the triangle area calculator")
 # 2. Write a program where a user enters a base and height and you print the area of a triangle.
-
+base=float(input("Please input the base of your triangle: "))
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 
