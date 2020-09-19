@@ -9,10 +9,17 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ??? Please tell me what this output is!
+In: -40  Out: -40
 
 '''
 
-
-
+print("Hi!\nWelcome to the Conversion Machine\nPlease enter the temperature below in Fahrenheit\n")
+fah=float(input("Fahrenheit Temperature: "))
+cel=fah-32
+cel=cel*5
+cel=cel/9
+print()
+print("The temperature in Celsius is: ",cel)
+print()
+print("Thanks for visiting the Conversion Machine\n\nPlease Come Again!")
 
