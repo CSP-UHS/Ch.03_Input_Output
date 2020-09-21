@@ -9,9 +9,14 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ??? Please tell me what this output is!
+In: -40  Out: -40
 
 '''
+
+temperature = float(input("Please enter temperature in Fahrenheit: "))
+temperature = temperature-32
+temperature = temperature*5/9
+print("Temperature in Celsius: ", temperature)
 
 
 
