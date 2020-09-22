@@ -47,6 +47,7 @@ print("The square root of" , integer , "is" , square)
 
 print()
 
+#calculates f=ma
 mass = float(input("Now enter in the mass of your object in kg: "))
 acc = float(input("Now enter in the acceleration of your location in m/s^2 (9.81 on Earth): "))
 force = mass*acc
