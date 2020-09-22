@@ -10,3 +10,11 @@ base 1: 5       base 2: 7    height: 2    area: 12
 base 1: 1       base 2: 2    height: 3    area: 4.5
 base 1: 7       base 2: 2    height: 4    area: 18
 '''
+
+base1 = int(input('Please Enter Base 1: '))         #take variables
+base2 = int(input('Please Enter Base 2: '))
+height = int(input('Please Enter Height: '))
+
+area = ((base1+base2)/2)*height                     #calculate area
+
+print('\nThe area of the trapezoid is '+str(area))  #print
