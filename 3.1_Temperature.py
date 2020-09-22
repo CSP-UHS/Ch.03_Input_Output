@@ -12,7 +12,7 @@ In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
 '''
-
-
+fahrenheit=int(input("Hey hi sorry to bother you again but Hermon's grading this so I hope you understand. Can you give me a temperature in fahrenheit so I can switch it to celsius?"))
+celsius=(fahrenheit-32)/1.8
 
 
