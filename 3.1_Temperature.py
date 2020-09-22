@@ -9,10 +9,10 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ??? Please tell me what this output is!
+In: -40  Out: ??? Please tell me what this output is!   #the output is -40. how cool.
 
 '''
-fahrenheit=int(input("Hey hi sorry to bother you again but Hermon's grading this so I hope you understand. Can you give me a temperature in fahrenheit so I can switch it to celsius?"))
-celsius=(fahrenheit-32)/1.8
-
+fahrenheit=int(input("Hey hi sorry to bother you again but Hermon's grading this so I hope you understand. Can you give me a temperature in fahrenheit so I can switch it to celsius?  "))  #asks for fahrenheit
+celsius=(fahrenheit-32)/1.8                 #equation things
+print("Thanks. Your celsius is",celsius,)   #projectile vomits the answer at you
 
