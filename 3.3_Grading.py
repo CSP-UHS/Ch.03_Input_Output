@@ -12,3 +12,11 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
+
+sem=float(input("Enter Semester Grade here: "))
+fe=float(input("Enter Final Exam here: "))
+ew=float(input("Enter Percent value of final exam here: "))
+ew1=(ew/100)
+ew2=((100-ew)/100)
+ov=(sem*ew2+fe*ew1)
+print(ov)
