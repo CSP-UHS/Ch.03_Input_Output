@@ -14,8 +14,11 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 
 print()
-semester=int(input("What is your semester grade: "))
-final=int(input("What is your Finals Grade: "))
-worth=int(input("What is the Finals worth: "))
+semester=int(input("What is your current semester grade: "))
+Test=int(input("What is your Test Grade: "))
+Worth=int(input("What is the Test worth: "))
+Worth=(Worth/100)
 
-
+Final=semester*(1-Worth) + Test*(Worth)
+print()
+print("This is your final grade",Final)
