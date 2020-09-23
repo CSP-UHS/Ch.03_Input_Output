@@ -11,8 +11,8 @@ base 1: 1       base 2: 2    height: 3    area: 4.5
 base 1: 7       base 2: 2    height: 4    area: 18
 '''
 
-b1=float(input("Type first base here: "))
-b2=float(input("Type base two here: "))
-h=float(input("Type height here: "))
-area=((b1+b2)/2*h)
+base1=float(input("Type first base here: "))
+base2=float(input("Type base two here: "))
+height=float(input("Type height here: "))
+area=((base1+base2)/2*height)
 print(area)

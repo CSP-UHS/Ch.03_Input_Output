@@ -13,10 +13,10 @@ Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 
-sem=float(input("Enter Semester Grade here: "))
-fe=float(input("Enter Final Exam here: "))
-ew=float(input("Enter Percent value of final exam here: "))
-ew1=(ew/100)
-ew2=((100-ew)/100)
-ov=(sem*ew2+fe*ew1)
-print(ov)
+sem_grade=float(input("Enter Semester Grade here: "))
+final_exam=float(input("Enter Final Exam here: "))
+exam_worth=float(input("Enter Percent value of final exam here: "))
+final_exam_worth=(exam_worth/100)
+sem_grade_worth=((100-exam_worth)/100)
+overall=(sem_grade*sem_grade_worth+final_exam*final_exam_worth)
+print(overall)
