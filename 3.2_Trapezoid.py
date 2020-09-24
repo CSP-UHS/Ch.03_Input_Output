@@ -10,3 +10,9 @@ base 1: 5       base 2: 7    height: 2    area: 12
 base 1: 1       base 2: 2    height: 3    area: 4.5
 base 1: 7       base 2: 2    height: 4    area: 18
 '''
+
+base_1 = int(input("What is one of the base of the trapezoid?:"))
+base_2 = int(input("What is one other base?:"))
+height = int(input("What is the height?:"))
+area = ((base_1+base_2)/2)*height
+print("The area of the base is:", area)

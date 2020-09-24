@@ -13,8 +13,6 @@ In: -40  Out: ??? Please tell me what this output is!
 
 '''
 
-temp_Fahrenheit=(int(input("What is the temperature in fahrenheit?:")))
-temp_Celsius= (temp_Fahrenheit-32)*5/9
-print("Here is the temperature in celsius",temp_Celsius)
-
-
+temp_Fahrenheit =(int(input("What is the temperature in fahrenheit?:")))
+temp_Celsius = (temp_Fahrenheit-32)*5/9
+print("Here is the temperature in celsius", temp_Celsius)
