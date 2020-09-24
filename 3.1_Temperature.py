@@ -13,6 +13,8 @@ In: -40  Out: ??? Please tell me what this output is!
 
 '''
 
-
+temp = int(input("Please enter the temperature in Fahrenheit: "))
+cel = (temp-32) * 5/9
+print("Your temperature is:" ,cel,end='')
 
 
