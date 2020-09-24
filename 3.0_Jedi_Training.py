@@ -21,8 +21,12 @@ print("Your circumference is:" ,circumference,end='')
 number = int(input("Enter your number: "))
 sqrt = number**.5
 print("Your square root is:" ,sqrt,end='')
+
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
-
+mass = int(input("Enter your mass: "))
+acceleration = int(input("Enter your acceleration: "))
+print("the Force")
+print("Get it?")
 
 
