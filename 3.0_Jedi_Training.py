@@ -1,6 +1,6 @@
 # Sign your name:Tom Dau
 # In all the short programs below, do a good job communicating with your end user!
-import math
+
 
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
 name=input(("What is your name?  "))                                        # Asks to input name
@@ -19,7 +19,7 @@ print()
 
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
-radius=int(input("Now, please type in a radius (m) for a circle:  "))       #asks for radius of a circle
+radius=float(input("Now, please type in a radius (m) for a circle:  "))       #asks for radius of a circle
 circumference=radius*2*3.14                                                 #hooray more calculations
 print("The circumference of your circle is:",circumference,"m")             #spits your answer at you
 print()
@@ -28,7 +28,7 @@ print()
 
 # 4. Ask a user for an integer and then print the square root.
 integer=int(input("Please type in a number for me to square root so I can show Hermon I did this:  "))  #i dont wanna explain anymore
-squareroot=math.sqrt(integer)                                                                           #i had to import math for this i better be doing it right
+squareroot=integer**.5                                                                           #i had to import math for this i better be doing it right
 print("The square root for the number you chose is:", squareroot)                                       #your answer is in the pile of vomit over there
 print()
 print()
