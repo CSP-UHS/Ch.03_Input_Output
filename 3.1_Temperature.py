@@ -16,7 +16,13 @@ In: -40  Out: -40
 temperature = float(input("Please enter temperature in Fahrenheit: "))
 temperature = temperature-32
 temperature = temperature*5/9
-print("Temperature in Celsius: ", temperature)
+if temperature > 0:
+    print("Temperature: \033[31m{area} °C".format(area=temperature))  # prints the temperature in a different color
+if temperature < 0:
+    print("Temperature: \033[34m{area} °C".format(area=temperature))
+if temperature == 0:
+    print("Temperature: \033[33m{area} °C".format(area=temperature))
+
 
 
 
