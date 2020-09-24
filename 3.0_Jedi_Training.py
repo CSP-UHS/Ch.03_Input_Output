@@ -1,4 +1,4 @@
-# Sign your name:________________
+# Sign your name:
 # In all the short programs below, do a good job communicating with your end user!
 
 
