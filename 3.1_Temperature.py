@@ -11,8 +11,10 @@ In: 52  Out: 11.1
 In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
+It's -40 degrees Celcius
+
 '''
-
-
-
-
+print("\nThis module will convert a temperature in fahrenheit to its celcius equivalent.")
+F=int(input("\nDegrees Fahrenheit: "))
+print()
+print("Degrees Celcius: ","{:0.1f}".format((F-32)*5/9))
