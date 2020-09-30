@@ -24,7 +24,7 @@ print("\n-Note that 3.14 was used in place of pi")
 # 4. Ask a user for an integer and then print the square root.
 
 number=int(input("Alrighty, I'm gonna do something funky. Give me a number!\n"))
-print(number**2)
+print(number**(1/2))
 
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
