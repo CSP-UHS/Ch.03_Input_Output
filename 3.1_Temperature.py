@@ -14,7 +14,6 @@ In: -40  Out: -40
 '''
 print()
 fah=int(input("Please put farrenheit here: "))
-grr=(fah-32)
-cel= (grr/1.8)
+cel=((fah-32)/1.8)
 print()
 print("your celsius is",cel)
