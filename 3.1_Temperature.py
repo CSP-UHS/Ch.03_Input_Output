@@ -13,7 +13,8 @@ In: -40  Out: ??? Please tell me what this output is! = -40 silly, everyone know
 
 '''
 
-temp=int(input("What is the temperature in Fahrenheit?"))
+print("\033[1mWelcome to the Hermon \033[1m")
+temp=int(input("\033[94mWhat is the temperature in Fahrenheit?"))
 print("The temperature is",(temp-32)*(5/9),"degrees in Celcius")
 
 
