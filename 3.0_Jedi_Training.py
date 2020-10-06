@@ -18,7 +18,7 @@ circumference = radius*2
 print("The circumference of the circle is:", circumference)
 
 # 4. Ask a user for an integer and then print the square root.
-'''im not doing this.'''
+
 
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
