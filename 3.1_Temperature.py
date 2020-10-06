@@ -12,7 +12,10 @@ In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
 '''
-
+temp= int(input("What is your temperature in fahrenhiet: "))
+celsius= (temp-32)*5/9
+print()
+print("Here is your temperature in Celsius==>",celsius,"C!")
 
 
 
