@@ -10,3 +10,10 @@ base 1: 5       base 2: 7    height: 2    area: 12
 base 1: 1       base 2: 2    height: 3    area: 4.5
 base 1: 7       base 2: 2    height: 4    area: 18
 '''
+name=input("please input your name:  ")
+print("Hello",name,"welcome to the trapezoid area calcutator")
+base_1=float(input("please input the first base of your trapezoid:  "))
+base_2=float(input("please input the second base of your trapezoid:  "))
+height=float(input("please input the height of your trapezoid:  "))
+area=base_1=base_2//2*height
+print("the area of our trapezoid is",area,"meters")
