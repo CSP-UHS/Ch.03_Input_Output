@@ -16,5 +16,8 @@ In: -40  Out: ??? Please tell me what this output is!
 name = input("please input your name:  ")
 print("welcome", name, ", to the fahrenheit to celsius calculator")
 fahrenheit = float(input("please input your fahrenheit:  "))
-celsius = (fahrenheit-fahrenheit)*5/9
+celsius = (fahrenheit-32)*5/9
 print("your temperature in celsius is", celsius, "degrees celsius")
+'''
+-40 fahrenheit is -40 celsius
+'''
