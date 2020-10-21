@@ -12,5 +12,9 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
-name=input("please enter your name: ")
-print("welcome ",name," to the grade calculator")
+name = input("please enter your name: ")
+print("welcome ", name, " to the grade calculator")
+Sem_Grade = float(input("please enter your semester grade: "))
+Final_Exam = float(input("please enter the grade on your final exam: "))
+Exam_Worth = float(input("please enter how much your exam was worth: "))
+Overall =
