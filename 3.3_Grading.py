@@ -12,3 +12,9 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
+semester_grade=int(input("Semester Grade:"))
+final_exam_grade=int(input("Final Exam Grade:"))
+worth=int(input("Final Exam Worth:"))
+print()
+final_grade=(semester_grade*(100-worth)+(final_exam_grade*worth))/100
+print("Overall:" ,final_grade)
