@@ -18,8 +18,17 @@ circumference = radius*2
 print("The circumference of the circle is:", circumference)
 
 # 4. Ask a user for an integer and then print the square root.
+inteGER = int(input("Enter an"))
+squareRoot = sqrt(inteGER)
+print("The square root of the integer is:", squareRoot)
 
-
+'''So I searched and found out that you have to do "import math" first.'''
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
 
+print("May the mass times acceleration be with you!")
+mass = float(input("Enter mass: "))
+acceleration = float(input("Enter acceleration: "))
+force = mass*acceleration
+print("The force is", force)
+print("Get it?")
