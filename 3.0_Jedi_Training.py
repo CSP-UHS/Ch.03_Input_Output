@@ -20,3 +20,8 @@ square_root = integer**.5
 print("the square root of your number is", square_root,)
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
+Acceleration = float(input(print("please input an acceleration:  ")))
+mass = float(input(print("Please input a mass:  ")))
+Force = mass*Acceleration
+print("may the mass * acceleration be with you", Force,)
+print("get it?")
