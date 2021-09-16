@@ -10,3 +10,8 @@ base 1: 5       base 2: 7    height: 2    area: 12
 base 1: 1       base 2: 2    height: 3    area: 4.5
 base 1: 7       base 2: 2    height: 4    area: 18
 '''
+bI=float(input("what is the first base?"))
+bR=float(input("what is the second base?"))
+height=float(input("what is the height?"))
+area=((bI+bR)/2)*height
+print(area)
