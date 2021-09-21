@@ -12,7 +12,9 @@ In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
 '''
-
+farenheit = float(input("What is the temperature in farenheit today"))
+cel = (farenheit-32)*(5/9)
+print("The temperature in celsius is",cel,)
 
 
 
