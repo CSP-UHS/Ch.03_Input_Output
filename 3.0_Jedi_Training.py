@@ -2,16 +2,20 @@
 # In all the short programs below, do a good job communicating with your end user!
 
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
-user_name = str(input("Enter your name:"))
+user_name = str(input("Enter your name: "))
 print("Hello there",user_name)
 
 # 2. Write a program where a user enters a base and height and you print the area of a triangle.
-tri_height = int(input("Enter triangle height:"))
-tri_base = float(input("Enter triangle base:"))
+tri_height = int(input("Enter triangle height: "))
+tri_base = float(input("Enter triangle base: "))
 bh = 0.5*(tri_height*tri_base)
-print("Triangle area :", bh)
+print("Triangle area : ", bh)
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
+radius = int(input("Enter radius here: "))
+
+
+
 
 
 # 4. Ask a user for an integer and then print the square root.
