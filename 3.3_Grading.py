@@ -15,5 +15,6 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 sem= float(input("What's your grade for this semester?"))
 exa= float(input("What's did you get on finals?"))
 exv= float(input("How much did the exam impact your grade?"))
+exv/=100
 overall= (exa*exv)+(sem)*(1-exv)
 print ("Your overall grade for the class was",overall,"!")
