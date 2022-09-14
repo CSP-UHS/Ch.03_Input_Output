@@ -12,7 +12,11 @@ In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
 '''
+#formula: (F_input - 32) * 5/9
 
 
+f = float(input("How many fahrenheit?"))
+c = (f-32) * 5/9
+print("That is ",c, "degrees in Celcius.")
 
-
+#the output of -40 would be -40 :)
