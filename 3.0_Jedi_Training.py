@@ -1,4 +1,4 @@
-# Sign your name:________________
+# Sign your name: Samuel Pattison
 # In all the short programs below, do a good job communicating with your end user!
 
 
@@ -18,4 +18,21 @@
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
 
 
+# print("Hello World")
+#
+# print("Your new score is", 10123+13813, "pts")
+#
+# print("I want to print a double quote \"Right Here\" ")
+#
+# print("Hello \nWorld")
+#
+# print("Hello", end=" ")
+# print("World")
+'''
+this is a docstring
+'''
 
+milesDriven = float(input("Enter the mile driven:"))
+gallonsUsed = float(input("Enter the gallons driven:"))
+mpg = milesDriven/gallonsUsed
+print(mpg)
