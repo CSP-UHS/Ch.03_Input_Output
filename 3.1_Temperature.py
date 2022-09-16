@@ -14,5 +14,9 @@ In: -40  Out: ??? Please tell me what this output is!
 '''
 
 
+def toCelsius(f) :
+    return (f - 32) * (5/9)
 
 
+userTemp = float(input("Enter your temperature in fahrenheit:\n"))
+print("Your celsius temperature is {}°C!".format(toCelsius(userTemp)))
