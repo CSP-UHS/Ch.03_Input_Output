@@ -1,6 +1,6 @@
 # Sign your name:________________
 # In all the short programs below, do a good job communicating with your end user!
-
+import math
 
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
 name = input("What is your name? ")
@@ -14,12 +14,12 @@ area = 1/2*base*height
 print("Area of the triangle is ",area,unit,"squared.")
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 r = float(input("What is the radius of your circle?"))
-c = 2*3.1415*r
+c = 2*math.pi*r
 unit = input("Unit of measurement?")
 print("The circumference is ", c,unit)
 # 4. Ask a user for an integer and then print the square root.
 i = int(input("Integer?"))
-print(i**0.5)
+print("The square root is",math.sqrt(i))
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
 mass = float(input("What is the mass?"))

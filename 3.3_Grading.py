@@ -14,7 +14,9 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 s = float(input("What is the semester grade?"))
 f = float(input("What is the final exam grade?"))
-w = float(input("What percentage of your grade was the final exam worth? (Please enter as a decimal."))
-avg = s+(f*w)
+w = float(input("What percentage of your grade was the final exam worth?"))
+x = (100-w)*0.01
+avg = (s*x)+(f*w*0.01)
 print("Your final grade is",avg,".")
 #idk how to calculate weighted grades im getting incorrect outputs, could you comment the correct formula to use? thank you
+
