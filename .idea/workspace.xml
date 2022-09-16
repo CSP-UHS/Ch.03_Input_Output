@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf084c89-8192-424c-b6da-334ea8330f82" name="Changes" comment="Jedi Training done">
-      <change beforePath="$PROJECT_DIR$/3.1_Temperature.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.1_Temperature.py" afterDir="false" />
+    <list default="true" id="bf084c89-8192-424c-b6da-334ea8330f82" name="Changes" comment="temp done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.2_Trapezoid.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.2_Trapezoid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663335871254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="temp done">
+      <created>1663336584067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663336584067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +74,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jedi Training done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jedi Training done" />
+    <MESSAGE value="temp done" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp done" />
   </component>
 </project>

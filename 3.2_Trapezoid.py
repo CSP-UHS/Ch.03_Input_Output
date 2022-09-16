@@ -10,3 +10,9 @@ base 1: 5       base 2: 7    height: 2    area: 12
 base 1: 1       base 2: 2    height: 3    area: 4.5
 base 1: 7       base 2: 2    height: 4    area: 18
 '''
+
+base1 = float(input("What is the first base of your trapezoid?"))
+base2 = float(input("What is the second base of your trapezoid?"))
+height = float(input("What is the height of your trapezoid?"))
+area = ((base1+base2)/2)*height
+print("The are of your trapezoid is" ,area, ", wow isn't math cool!")
