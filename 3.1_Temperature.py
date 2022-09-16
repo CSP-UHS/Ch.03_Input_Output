@@ -13,6 +13,14 @@ In: -40  Out: ??? Please tell me what this output is!
 
 '''
 
-
-
+tempF = float(input("What is the temperature in Farenheit"))
+tempC = tempF-32*5/9
+if tempC<=5:
+    print("dang",tempC,"degrees Celsius might want to put on a jacket")
+elif 5<tempC<33:
+    print(tempC,"degrees Celsius that's pretty nice wheather enjoy your day :)")
+elif tempC>=33:
+    print("Wow",tempC,"degrees Celsius that's getting pretty hot might want to were light clothes")
+else:
+    print("That's not a number")
 
