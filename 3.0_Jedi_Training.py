@@ -18,4 +18,9 @@
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
 
 
+md=int(input("enter the miles driven: "))
+gu=int(input("enter the gallons used: "))
+mpg=(md/gu)
+print(mpg)
+
 
