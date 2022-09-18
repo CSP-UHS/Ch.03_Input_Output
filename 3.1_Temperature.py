@@ -10,8 +10,13 @@ In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
+it would be -40 in Celcius as well
 
 '''
+
+example_one = int(input("what is the temperature in degrees Fahrenheit?:"))
+celcius_one = (example_one-32)*5/9
+print("The temperature in Celcius is",celcius_one,"degrees")
 
 
 
