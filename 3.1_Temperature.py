@@ -9,11 +9,12 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ??? Please tell me what this output is! -40 degrees celsius
+In: -40  Out: ??? Please tell me what this output is!
+                -40 degrees celsius
 
 '''
 
-farhen=float(input("what is your tempurature in fahrenheit? "))
+farhen=float(input("what is your tempurature in fahrenheit?"))
 celsiu=(farhen-32)*0.5556
 print("so",farhen,"degrees farhenheit is",celsiu,"degrees celcius")
 
