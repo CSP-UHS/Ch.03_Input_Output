@@ -9,10 +9,12 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ??? Please tell me what this output is!
+In: -40  Out: ??? Please tell me what this output is! -40
 
 '''
 
-
+f = float(input("What degree fahrenheit would you like to convert into celsius? "))
+c = (f-32)*(5/9)
+print(f,"degrees fahrenheit is",c,"degrees celsius.")
 
 
