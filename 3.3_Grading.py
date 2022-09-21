@@ -12,3 +12,12 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
+
+
+print("Hello there student!")
+sg = int(input("What was your Semester Grade?"))
+fg = int(input("Nice! What was your Final grade?"))
+w = int(input("What was your Final Exam worth?"))/100
+r = (1-w)
+FinalGrade = float((sg*r+fg*w))
+print(FinalGrade)
