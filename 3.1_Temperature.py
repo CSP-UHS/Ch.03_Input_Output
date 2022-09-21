@@ -12,6 +12,11 @@ In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
 '''
+import math
+
+temp = float(input("What is the temperature in Fahrenheit?"))
+c =
+print("The temperature in celsius would be",c,)
 
 
 
