@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf084c89-8192-424c-b6da-334ea8330f82" name="Changes" comment="trap done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.3_Grading.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.3_Grading.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf084c89-8192-424c-b6da-334ea8330f82" name="Changes" comment="Done with all" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663337003276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done with all">
+      <created>1663346679000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663346679000</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Done with all">
+      <created>1663346740488</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663346740488</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +94,7 @@
     <MESSAGE value="Jedi Training done" />
     <MESSAGE value="temp done" />
     <MESSAGE value="trap done" />
-    <option name="LAST_COMMIT_MESSAGE" value="trap done" />
+    <MESSAGE value="Done with all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with all" />
   </component>
 </project>
