@@ -1,3 +1,4 @@
+import math
 '''
 Grading PROGRAM
 ---------------
@@ -12,3 +13,11 @@ Sem Grade: 86   Final Exam: 52   Exam worth: 15%    Overall: 80.9
 Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
+
+SG = float(input("What is your Semester Grade? "))
+FE = float(input("What is your final Exam Grade? "))
+EX = float(input("What is your Exam Worth? "))
+FR = (EX/100)
+WO = ((100-EX)/100)
+OA = ((SG*WO)+(FE*FR))
+print("Your overall grade is: ",OA,)
