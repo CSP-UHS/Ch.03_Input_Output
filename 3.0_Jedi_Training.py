@@ -5,7 +5,7 @@ import math
 # # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
 name = input("Whats your name? ")
 print("Hello "+name+"!")
-
+# a change
 # # # 2. Write a program where a user enters a base and height and you print the area of a triangle.
 base = int(input("What is the base of the Triangle? "))
 height = int(input("What is the height of the Triangle? "))
