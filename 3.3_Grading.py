@@ -15,5 +15,6 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 semester = float(input("What is your semester grade?"))
 final = float(input("What was your final grade in the class?"))
 weight = float(input("What is the weight of the test?"))
-over = semester*final/weight
+over = (semester*final)/(100/weight)/3
+
 print("Your over grade was",over,"for the class!")
