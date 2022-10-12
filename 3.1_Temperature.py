@@ -1,3 +1,4 @@
+import math
 '''
 TEMPERATURE PROGRAM
 -------------------
@@ -12,6 +13,13 @@ In: 25  Out: -3.9
 In: -40  Out: ??? Please tell me what this output is!
 
 '''
+c=5/9
+Username= input("Hello what is your name:")
+print("hello",Username,)
+fahrenheit=float(input("fahrenheit:"))
+bruh = (fahrenheit -32) * c
+print(bruh)
+
 
 
 
